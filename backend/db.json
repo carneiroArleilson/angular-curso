@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "caneta bic",
+      "price": 5
+    },
+    {
+      "id": 2,
+      "name": "notebook aplle",
+      "price": 12000
+    },
+    {
+      "id": 3,
+      "name": "sansung 20+",
+      "price": 5000
+    }
+  ]
+}
