@@ -29,6 +29,7 @@ export class ProductService {
     return this.http.get<Product[]>(this.baseUrl);
   }
 
+<<<<<<< HEAD
   readById(id: string): Observable<Product>{
     const url=`${this.baseUrl}/${id}`;
     return this.http.get<Product>(url);
@@ -43,4 +44,6 @@ export class ProductService {
     const  url = `${this.baseUrl}/${id}`;
     return this.http.delete<Product>(url);
   }
+=======
+>>>>>>> parent of aa93ace (Componente Atualizar Produto #02)
 }

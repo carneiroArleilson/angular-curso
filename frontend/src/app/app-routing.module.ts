@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+=======
+>>>>>>> parent of aa93ace (Componente Atualizar Produto #02)
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 
@@ -18,12 +21,15 @@ const routes: Routes = [
   },{
     path: "products/create",
     component: ProductCreateComponent
+<<<<<<< HEAD
   },{
     path: "products/update/:id",
     component: ProductUpdateComponent
   },{
     path: "products/delete/:id",
     component: ProductDeleteComponent
+=======
+>>>>>>> parent of aa93ace (Componente Atualizar Produto #02)
   }
 ];
 
